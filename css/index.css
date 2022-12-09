@@ -3,3 +3,9 @@
 body {
     background-color: blueviolet;
 }
+
+.jumbotron {
+    background-image: no-repeat;
+    background-color: aquamarine;
+}
+
