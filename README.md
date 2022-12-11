@@ -18,7 +18,7 @@ Title elements contain a concise, descriptive title
 N/A
 
 ## Usage
-https://lisamlorenz.github.io/portfolio_lisa_lorenz/
+https://lisamlorenz.github.io/Bootstrap-Portfolio/
 
 ### Using Bootstrap, recreate your portfolio site with the following items:
 - A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
