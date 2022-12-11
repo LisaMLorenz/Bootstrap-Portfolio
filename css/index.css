@@ -1,7 +1,7 @@
 /*add a background colour to see if it works*/
 
 body {
-    background-color: blueviolet;
+    background-color: whitesmoke;
 }
 
 .nav-item {
@@ -30,6 +30,18 @@ body {
 .card-image-top {
     object-fit: cover !important;
     object-position: 100% !important;
+    padding: 50px !important;
+    justify-content: space-around;
+    border: none !important;
+}
+
+.card {
+    object-fit: cover !important;
+    object-position: 100% !important;
+    padding: 15px !important;
+    position: space-around !important;
+    border: none !important;
+    margin: 15px !important;
 }
 
 #lisa-picture {
@@ -88,5 +100,30 @@ a:hover::before {
 }
 
 .footer {
-    background-color: blue;
+    background-color: yellow;
+    display: flex;
+    height: 80px !important;
+    justify-content: space-between !important;
+    padding: 50px 50px 50px 50px;
+}
+
+.video {
+    display: flex;
+    border: 20px yellow;
+}
+
+
+
+.footer-text {
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+.icons {
+    display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    offset: 10px;
+    
 }

@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <!--Link to CSS style sheet-->
     <link rel="stylesheet" href="./css/index.css">
+    <!--fontawesome link-->
+    <script src="https://kit.fontawesome.com/37d60e27bc.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -24,7 +26,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="https://www.fraulore.nz">Portfolio Lisa Lorenz</a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/lisa-m-lorenz/">Portfolio Lisa Lorenz</a>
 
                 <ul class="nav">
                     <li class="nav-item">
@@ -65,7 +67,8 @@
                     <button type="button" class="btn btn-dark" id="boxShadow" href="mailto: hej@frau-lorenz.de?subject=I'm interested in working with you
                         &#128512;&body=I'd like to work with you please get in touch to see if you are available to
                         take any jobs on.">Contact Me</button>
-                    <button type="button" class="btn btn-outline-dark" id="boxShadow" id="boxShadow"href="https://www.fraulore.nz">Design
+                    <button type="button" class="btn btn-outline-dark" id="boxShadow" id="boxShadow"
+                        href="https://www.fraulore.nz">Design
                         Portfolio</button>
 
 
@@ -77,10 +80,17 @@
                     </p>
                 </div>
 
-                <!--Carousel with project images. It's not working for some reason but I can't figure out why?-->
+                <!--Tried to embed a video instead of a carousel.-->
+
 
                 <div class="col-sml-12 col-med-6 col-lg-8">
+                    <div class="video">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/248990830?h=1e8612245c"
+                            width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
+                        <!--Carousel with project images. It's not working for some reason but I can't figure out why?-->
+
+                        <!--
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
 
@@ -98,16 +108,15 @@
                             </div>
                         </div>
                     </div>
+                    -->
 
-                    <!--Carousel navigation-->
 
-
+                    </div>
                 </div>
-            </div>
 
-            <!-- MODAL TO POP UP. Couldn't get this to work -->
+                <!-- MODAL TO POP UP. Couldn't get this to work -->
 
-            <!--
+                <!--
 
                 <div class="col-sml-12 col-med-6 col-lg-3">
                     <div class="card" id="intro">
@@ -136,37 +145,45 @@
                 </div>
             </div>
              -->
-        </div>
+            </div>
 
+        </div>
     </div>
 
-
+    <!-- Section for first row of work. -->
 
     <section>
         <div class="projects" id="work">
             <div class="row">
                 <div class="col-sml-12 col-med-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top" src="./images/banan.jpg"
-                            style="object-fit: cover; object-position: 100% 0" alt="Drawing of a banana">
+                        <img class="card-img-top" src="./images/dustoff.png"
+                            style="object-fit: cover; object-position: 100% 0" alt="Drawing of a koala">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make
-                                up the bulk
-                                of
-                                the
-                                card's content.</p>
+                            <p class="card-text">
+                            <h3>Dust Off</h3>
+                            Online platform for dance community centered in England's North West. Dust Off host
+                            parties
+                            in community centers, clubs and unexpected places. Their trade mark are leafy green
+                            decor
+                            and cutting edge electronic music. The team is spear-headed by Nick Kagame and Anna
+                            Cooper.
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sml-12 col-med-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top" src="./images/Brave Little Sternums.png"
-                            style="object-fit: cover; object-position: 100% 0"
-                            alt="Book illustration for Brave Little Sternums">
+                        <a href="https://www.fraulore.nz"><img class="card-img-top" src="./images/designportfolio.png"
+                                style="object-fit: cover; object-position: 100% 0"
+                                alt="Screenshot of Lisas design portfolio">
+                        </a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make
-                                up the bulk of the card's content.</p>
+                            <p class="card-text">
+                            <h3>Frau Lorenz Design</h3>
+                            Graphic Design portfolio showcasing video, print, and digital art. This site combines
+                            bootstrap and custom built HTML and CSS as well as Javascript.</p>
                         </div>
                     </div>
                 </div>
@@ -174,7 +191,11 @@
                 <div class="col-sml-12 col-med-6 col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            This is some text within a card body.
+                            <h3>First Projects</h3>
+                            Here is where my coding skills are still in their infanciy. I'm looking forward to see
+                            where
+                            the road takes me. Are you too? Keep in touch and regularly check this space for
+                            updates.
                         </div>
                     </div>
                 </div>
@@ -183,35 +204,46 @@
             </div>
     </section>
 
+    <!-- Section for second row of work. -->
     <section>
         <div class="projects">
             <div class="row">
-                <div class="col-sml-12 col-med-6 col-lg-4">
+                <div class="col-sml-12 col-med-6 col-lg-8">
                     <div class="card">
-                        <img class="card-img-top" src="./images/tosh.JPG"
-                            style="object-fit: cover; object-position: 100% 0" alt="Card image cap">
+                        <a href="https://lisamlorenz.github.io/Challenge1/"><img class="card-img-top"
+                                src="./images/Horiseon.png" style="object-fit: cover; object-position: 100% 0"
+                                alt="Horiseon webpage screenshot">
+                        </a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make
-                                up
-                                the
-                                bulk
-                                of
-                                the
-                                card's content.</p>
+                            <p class="card-text">HORISEON are the trailblazers of accessiblity in CSS and HTML. We
+                                helped them build their site. See for yourself. Click the image to be directed to
+                                their
+                                site.</p>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="col-sml-12 col-med-6 col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            This is some text within a card body.
+                            <h3>HORISEON</h3>
+                            <p>Refactor code by meeting standards in web accessibility and following the Scout Rule.
+                                Improve codebase for long term sustainability and ensure that all links are
+                                functioning
+                                correctly and clean up the CSS to make it more efficient, consolidating CSS
+                                selectors
+                                and properties, organizing them to follow the semantic structure of the HTML
+                                elements,
+                                and including comments before each element or section of the page.
+
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
     </section>
+
+    <!-- Section for about and skills -->
 
     <section>
         <div class="jumbotron jumbotron-fluid" id="aboutMe">
@@ -221,14 +253,19 @@
                     <div class="col-sml-12 col-med-6 col-lg-8">
                         <div class="card" style="width: 24fr">
                             <div class="card-body">
-                                <h5 class="card-title">About Me</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Please don't hesitate to reach out to find out
+                                <h4 class="card-title">About Me</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Please don't hesitate to reach out to find
+                                    out
                                     more.</h6>
-                                <p class="card-text">I am a trained Graphic Designer holding a post-graduate degree in
+                                <p class="card-text">I am a trained Graphic Designer holding a post-graduate degree
+                                    in
                                     Design & Art Direction. I have over 10 years of experience in creating visual
                                     artwork for print and digital. Originally I am from Germany which makes me the
-                                    perfect fit for any German speaking clients who would like to discuss their projects
-                                    in our mother tongue. I also have some basic knowledge in Greek, French and Spanish.</p>
+                                    perfect fit for any German speaking clients who would like to discuss their
+                                    projects
+                                    in our mother tongue. I also have some basic knowledge in Greek, French and
+                                    Spanish.
+                                </p>
                                 <a href="https://www.fraulore.nz" class="card-link">Design Portfolio</a>
                                 <a href="mailto:hej@frau-lorenz.de" class="card-link">Email Me</a>
                             </div>
@@ -238,7 +275,7 @@
                     <div class="col-sml-12 col-med-6 col-lg-4">
                         <div class="card" style="width: 12fr">
                             <div class="card-body">
-                                <h5 class="card-title">Skills</h5>
+                                <h4 class="card-title">Skills</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Here is what I can offer</h6>
                                 <p class="card-text">
                                 <ul>
@@ -259,17 +296,25 @@
 
     </section>
 
+    <!-- The footer goes below. -->
+
     <footer>
         <div class="footer">
-            <div>
-                <div class="footer footerbackground">
-                    <div class="footer-text">
-                        <p class="lead">Copyright Lisa Lorenz 2022</p>
-                    </div>
+            <!--<div class="fixed-bottom"> -->
+            <div class="footer-text">
+                <div class="connect">
+                    <h6>Connect with me via social media</h6>
                 </div>
-
+                <div class="icons">
+                    <a href="http://instagram.com/somuchtoanswer"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="https://twitter.com/hejnousmagazine"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Copyright Lisa Lorenz 2022</p>
             </div>
         </div>
+
     </footer>
 
 </body>
