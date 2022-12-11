@@ -89,8 +89,6 @@ a:hover::before {
 }
 
 
-
-
 /* Boxshadow id for buttons*/
 
 #boxShadow:hover,
@@ -110,9 +108,10 @@ a:hover::before {
 .video {
     display: flex;
     border: 20px yellow;
+    /* I wanted to add a yellow border on hover but this didn't work */
 }
 
-
+/*struggling to align my items in the footer*/
 
 .footer-text {
     display: inline-flex;
@@ -125,5 +124,5 @@ a:hover::before {
     padding-left: 25px;
     padding-right: 25px;
     offset: 10px;
-    
+
 }
